@@ -93,7 +93,7 @@ git clone https://github.com/team4099/Scouting-2022.git
 When committing your changes to the tableau file, make sure to run these lines of code
 
 ```
-git add *
+git add .
 git commit -m "<your_commit_message>"
 git push
 ```
