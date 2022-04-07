@@ -2405,7 +2405,7 @@
           <groupfilter function='level-members' level='[team_id]' />
         </groupfilter>
       </group>
-      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='0.410909' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' parameter-percentage='0.589091' show-structure='true' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='0.409506' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' parameter-percentage='0.590494' show-structure='true' />
       <style>
         <style-rule element='mark'>
           <encoding attr='color' field='[none:team_id:nk]' type='palette'>
@@ -4236,8 +4236,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1850' minheight='1850' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='59' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97916' id='58' param='vert' type-v2='layout-flow' w='98438' x='781' y='1042'>
+            <zone h='100000' id='61' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97916' id='60' param='vert' type-v2='layout-flow' w='98438' x='781' y='1042'>
                 <zone forceUpdate='true' h='7032' id='14' type-v2='text' w='60938' x='781' y='1042'>
                   <formatted-text>
                     <run fontcolor='#000000' fontsize='12'>Team 4099 The Falcons graciously accepts.</run>
@@ -4573,8 +4573,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='2050' minheight='2050' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='59' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97916' id='58' param='vert' type-v2='layout-flow' w='98438' x='781' y='1042'>
+            <zone h='100000' id='61' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97916' id='60' param='vert' type-v2='layout-flow' w='98438' x='781' y='1042'>
                 <zone forceUpdate='true' h='7032' id='14' type-v2='text' w='60938' x='781' y='1042'>
                   <formatted-text>
                     <run fontcolor='#000000' fontsize='12'>Team 4099 The Falcons graciously accepts.</run>
@@ -4726,7 +4726,7 @@
     </dashboard>
   </dashboards>
   <windows source-height='30'>
-    <window class='dashboard' name='1st Pick'>
+    <window class='dashboard' maximized='true' name='1st Pick'>
       <viewpoints>
         <viewpoint name='H'>
           <zoom type='fit-height' />
@@ -4778,7 +4778,7 @@
       <active id='41' />
       <simple-id uuid='{5F65B2C2-03FB-423B-B3E1-B273154EE5D7}' />
     </window>
-    <window class='worksheet' maximized='true' name='Picklist'>
+    <window class='worksheet' name='Picklist'>
       <cards>
         <edge name='left'>
           <strip size='160'>
