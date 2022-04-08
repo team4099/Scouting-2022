@@ -3894,11 +3894,8 @@
       <column caption='Attempted Mid Usage' datatype='real' name='[attempted_mid_usage]' role='measure' type='quantitative' />
       <column caption='Attempted Traversal' datatype='integer' name='[attempted_traversal]' role='measure' type='quantitative' />
       <column caption='Attempted Traversal Usage' datatype='real' name='[attempted_traversal_usage]' role='measure' type='quantitative' />
-      <column caption='Auto From Elsewhere In Tarmac Usage' datatype='real' name='[auto_from_elsewhere_in_tarmac_usage]' role='measure' type='quantitative' />
-      <column caption='Auto From Elsewhere On Field Usage' datatype='real' name='[auto_from_elsewhere_on_field_usage]' role='measure' type='quantitative' />
       <column caption='Auto From Fender' datatype='integer' name='[auto_from_fender]' role='measure' type='quantitative' />
       <column caption='Auto From Fender Usage' datatype='real' name='[auto_from_fender_usage]' role='measure' type='quantitative' />
-      <column caption='Auto From Hangar Zone Usage' datatype='real' name='[auto_from_hangar_zone_usage]' role='measure' type='quantitative' />
       <column caption='Auto From Launchpad' datatype='integer' name='[auto_from_launchpad]' role='measure' type='quantitative' />
       <column caption='Auto From Launchpad Usage' datatype='real' name='[auto_from_launchpad_usage]' role='measure' type='quantitative' />
       <column caption='Auto From Terminal' datatype='integer' name='[auto_from_terminal]' role='measure' type='quantitative' />
@@ -3964,11 +3961,8 @@
       <column caption='Final Climb Type' datatype='string' name='[final_climb_type]' role='dimension' type='nominal' />
       <column caption='Fouls Avg' datatype='real' name='[fouls_avg]' role='measure' type='quantitative' />
       <column caption='Fouls Med' datatype='real' name='[fouls_med]' role='measure' type='quantitative' />
-      <column caption='From Elsewhere In Tarmac Usage' datatype='real' name='[from_elsewhere_in_tarmac_usage]' role='measure' type='quantitative' />
-      <column caption='From Elsewhere On Field Usage' datatype='real' name='[from_elsewhere_on_field_usage]' role='measure' type='quantitative' />
       <column caption='From Fender' datatype='integer' name='[from_fender]' role='measure' type='quantitative' />
       <column caption='From Fender Usage' datatype='real' name='[from_fender_usage]' role='measure' type='quantitative' />
-      <column caption='From Hangar Zone Usage' datatype='real' name='[from_hangar_zone_usage]' role='measure' type='quantitative' />
       <column caption='From Launchpad' datatype='integer' name='[from_launchpad]' role='measure' type='quantitative' />
       <column caption='From Launchpad Usage' datatype='real' name='[from_launchpad_usage]' role='measure' type='quantitative' />
       <column caption='From Terminal' datatype='integer' name='[from_terminal]' role='measure' type='quantitative' />
@@ -4070,16 +4064,10 @@
       <column-instance column='[Calculation_4264345906532085788]' derivation='Sum' name='[sum:Calculation_4264345906532085788:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Calculation_4264345906532188189]' derivation='Sum' name='[sum:Calculation_4264345906532188189:qk]' pivot='key' type='quantitative' />
       <column-instance column='[Calculation_4264345906532311071]' derivation='Sum' name='[sum:Calculation_4264345906532311071:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[auto_from_elsewhere_in_tarmac_usage]' derivation='Sum' name='[sum:auto_from_elsewhere_in_tarmac_usage:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[auto_from_elsewhere_on_field_usage]' derivation='Sum' name='[sum:auto_from_elsewhere_on_field_usage:qk]' pivot='key' type='quantitative' />
       <column-instance column='[auto_from_fender_usage]' derivation='Sum' name='[sum:auto_from_fender_usage:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[auto_from_hangar_zone_usage]' derivation='Sum' name='[sum:auto_from_hangar_zone_usage:qk]' pivot='key' type='quantitative' />
       <column-instance column='[auto_from_launchpad_usage]' derivation='Sum' name='[sum:auto_from_launchpad_usage:qk]' pivot='key' type='quantitative' />
       <column-instance column='[auto_from_terminal_usage]' derivation='Sum' name='[sum:auto_from_terminal_usage:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[from_elsewhere_in_tarmac_usage]' derivation='Sum' name='[sum:from_elsewhere_in_tarmac_usage:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[from_elsewhere_on_field_usage]' derivation='Sum' name='[sum:from_elsewhere_on_field_usage:qk]' pivot='key' type='quantitative' />
       <column-instance column='[from_fender_usage]' derivation='Sum' name='[sum:from_fender_usage:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[from_hangar_zone_usage]' derivation='Sum' name='[sum:from_hangar_zone_usage:qk]' pivot='key' type='quantitative' />
       <column-instance column='[from_launchpad_usage]' derivation='Sum' name='[sum:from_launchpad_usage:qk]' pivot='key' type='quantitative' />
       <column-instance column='[from_terminal_usage]' derivation='Sum' name='[sum:from_terminal_usage:qk]' pivot='key' type='quantitative' />
       <column-instance column='[high_rung_pct]' derivation='Sum' name='[sum:high_rung_pct:qk]' pivot='key' type='quantitative' />
@@ -6755,8 +6743,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1400' minheight='1400' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='108' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='107' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='114' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='113' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='44' h='6500' id='19' is-fixed='true' name='Auto - Red' w='39600' x='800' y='1000'>
                   <layout-cache fixed-size-h='44' fixed-size-w='389' type-h='fixed' type-w='fixed' />
                   <zone-style>
@@ -7037,8 +7025,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='66' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='65' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='72' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='71' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='44' h='6500' id='16' is-fixed='true' name='Driver Rating - Red' w='40800' x='800' y='1000'>
                   <layout-cache has-max-size-h='true' maxheight='52' minheight='52' non-cell-size-w='400' type-h='scalable' type-w='cell' />
                   <zone-style>
@@ -7261,8 +7249,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='28' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='27' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='34' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='33' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='44' h='6500' id='13' is-fixed='true' name='Defense - Red' w='41200' x='800' y='1000'>
                   <layout-cache fixed-size-h='44' fixed-size-w='405' type-h='fixed' type-w='fixed' />
                   <zone-style>
@@ -7575,8 +7563,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='950' minheight='950' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='102' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='101' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='108' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='107' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='44' h='6500' id='26' is-fixed='true' name='Mid - Red' w='14200' x='800' y='1000'>
                   <layout-cache fixed-size-h='44' fixed-size-w='134' type-h='fixed' type-w='fixed' />
                   <zone-style>
@@ -7943,8 +7931,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1400' minheight='1400' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='104' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='103' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='110' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='109' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='44' h='6500' id='20' is-fixed='true' name='Teleop Cargo - Red' w='39600' x='800' y='1000'>
                   <layout-cache has-max-size-h='true' maxheight='52' minheight='52' non-cell-size-w='388' type-h='scalable' type-w='cell' />
                   <zone-style>
